@@ -1,0 +1,12 @@
+@import 'product.scss';
+aside{
+
+    flex-direction: row-reverse;
+    h1{
+        font-size: 5em;
+        color:$color-nghe;
+        text-align: center;
+        font-family: $font-1;
+    }
+    @include product;
+}

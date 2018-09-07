@@ -1,0 +1,8 @@
+@import 'khung.scss';
+section{
+
+    @include khung;
+    @import 'border-bg.scss';
+    height: 414px;
+    background: url('../images/bg.jpg') center no-repeat ;
+}

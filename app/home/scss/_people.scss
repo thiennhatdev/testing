@@ -1,0 +1,27 @@
+.people__container{
+    padding:100px 5%;
+    &--customer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        @import 'component-people.scss';
+        @include people;
+    }
+    // style for thẻ p
+    &--more{
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        background-color:black;
+        width: 43%;
+        border-radius: 5px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        margin:4% auto;
+        transition: 0.5s;
+        &:hover{
+            background-color: $color-nghe;
+        }
+    }
+}

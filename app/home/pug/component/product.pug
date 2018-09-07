@@ -1,0 +1,12 @@
+mixin product(theH1,theH2,theP,theA,duongDan1,duongDan2)
+    .article__text
+        h1= theH1
+        h2= theH2
+        span *
+        p= theP
+        a(title=theA)= theA
+    .article__image
+        figure
+            img(alt='ảnh cà phê',src=duongDan1)
+        figure
+            img(alt='ảnh cà phê',src=duongDan2)    

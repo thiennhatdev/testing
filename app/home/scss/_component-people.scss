@@ -1,0 +1,27 @@
+@mixin people{
+    .people{
+        width:30%;
+        figure{
+            width:100%;
+            padding:29px 0;
+            img{
+                margin:0 23%;
+                width: 50%;
+            }
+        }
+
+        h3{
+            color:$color-nghe;
+            text-align:center;
+            border-left:8px solid $color-nghe;
+            padding: 20px 8%;
+            font-size: 1.4em;
+            font-weight: 50;
+        }
+        p{
+            padding-top: 20px;
+            text-align: center;
+            line-height: 1.3em;
+        }
+    }
+}

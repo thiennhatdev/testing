@@ -1,0 +1,15 @@
+@mixin khung{
+    width: 100%;
+    position: relative;
+    padding: 14% 0;
+    h2{
+        text-align:center;
+        text-transform: uppercase;
+        font-size: 3em;
+        letter-spacing: 0.2em;
+        color: white;
+    }
+    .border-bg:first-child{
+        top: -2%;
+    }
+}

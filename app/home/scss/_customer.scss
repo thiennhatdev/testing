@@ -1,0 +1,9 @@
+@import 'khung.scss';
+.customer{
+    @include khung;
+    @import 'border-bg.scss';
+    height: 307px;
+    background:url('../images/product1.png') center no-repeat ;
+    background-size: cover;
+    
+}

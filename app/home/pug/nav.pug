@@ -1,0 +1,15 @@
+nav
+    .nav__logo
+        img(alt='logo',src='./app/home/images/logo.png')
+    // close class nav logo
+    .nav__content
+        .nav__content--top
+            a(title='facebook',href='#').fab.fa-facebook-f
+            a(title='youtube',href='#').fab.fa-youtube-square
+            a(title='cart',href='#').fas.fa-shopping-cart
+        .nav__content--bottom
+            ul
+                - var list = ['trang chủ','giới thiệu','sản phẩm',' câu chuyện cafe','khuyến mãi','hỏi đáp','liên hệ'] 
+                    each item in list
+                        li: a(title=item,href='#')= item                   
+    // close class nav content
